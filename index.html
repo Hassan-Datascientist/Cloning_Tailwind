@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+ <body>
+  <!-- Navigation -->
+  <nav class="flex text-white bg-blue-600 w-full fixed z-20 px-5 py-5 lg:container lg:mx-auto  rounded-b-2xl justify-between space-x-10  items-center">
+    <div>
+      <img src="/public/logo.png" alt="logo" class="w-28 h-10">
+    </div>
+    <ul class="flex gap-10 justify-center items-center">
+      <li class="shadow rounded-2xl px-5 py-3">Home</li>
+      <li>Our shop</li>
+      <li>Product Details</li>
+      <li>Contact Us</li>
+      <li class="bg-red-400 shadow-2xl rounded-2xl px-5 py-2">SIGN IN</li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="md:px-20 px-2 flex justify-between gap-20  bg-[url(/public/banner-bg.jpg)] lg:pt-44 pt-44 pb-24  rounded-b-[10rem]">
+
+      <div >
+        <h2 class="text-white font-bold mb-5">WELCOME TO LUGX</h2>
+        <h1 class="text-white font-bold text-5xl mb-10">BEST GAMING SITE <br> EVER!</h1>
+        
+        <p class="text-white font-light mb-10 uppercase text-lg max-w-2xl">
+          LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming 
+          websites. You can download and use this layout for commercial purposes.
+          Please tell your friends about TemplateMO.
+        </p>
+        
+      <div class="bg-white rounded-4xl h-12 w-full gap-4 overflow-hidden flex items-center">
+         <input type="text" class="h-fit p-4 flex-1 text-black bg-white outline-none " placeholder="Type Something">
+        <button type="button" class="bg-red-400 px-6 py-3 rounded-2xl text-white font-semibold shadow">
+          Search Now
+        </button>
+      </div>
+      </div>
+    
+      <div class="relative">
+        <span class="absolute right-10 top-5 bg-blue-500 text-white px-4 py-3 rounded-full text-2xl font-semibold ">$22</span>
+        <img class="rounded-2xl h-[400px]" src="public/banner-image.jpg" alt="banner">
+      </div>
+  </div>
+
+  <!-- Features -->
+  <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 lg:px-24 px-4 -mt-16 items-center">
+    <div class="bg-white shadow-2xl px-4 py-8 text-center rounded-4xl text-black text-2xl">
+      <div class="size-18 mx-auto mb-4  bg-blue-800 rounded-full p-5">
+        <img class="w-full h-full object-cover " src="public/featured-01.png" alt="">
+      </div>
+      <p>FREE STORAGE</p>
+    </div>
+     <div class="bg-white shadow-2xl px-4 py-8 text-center rounded-4xl text-black text-2xl">
+      <div class="size-18 mx-auto mb-4  bg-blue-800 rounded-full p-5">
+        <img class="w-full h-full object-cover" src="public/featured-02.png" alt="">
+      </div>
+      <p>USER MORE</p>
+    </div>
+     <div class="bg-white shadow-2xl px-4 py-8 text-center rounded-4xl text-black text-2xl">
+      <div class="size-18 mx-auto mb-4  bg-blue-800 rounded-full p-5">
+        <img class="w-full h-full object-cover" src="public/featured-03.png" alt="">
+      </div>
+      <p>REPLAY READY</p>
+    </div>
+     <div class="bg-white shadow-2xl px-4 py-8 text-center rounded-4xl text-black text-2xl ">
+      <div class="size-18 mx-auto mb-4 bg-blue-800 rounded-full p-5">
+        <img class="w-full h-full object-cover " src="public/featured-04.png" alt="">
+      </div>
+      <p>EASY LAYOUT</p>
+    </div>
+ 
+  </div>
+
+  <!-- Trending -->
+  <div class="flex justify-between mt-28 mb-16 lg:px-28 px-4 ">
+    <div>
+      <h2 class="font-bold text-red-400">TRENDING</h2>
+      <h1 class="font-bold text-3xl text-black">Trending Games</h1>
+    </div>
+    <div class="bg-red-400 text-white px-7 py-2 rounded-4xl shadow-2xl flex justify-center items-center">
+      <button>VIEW ALL</button>
+    </div>
+  </div>
+
+</body>
+</html>
